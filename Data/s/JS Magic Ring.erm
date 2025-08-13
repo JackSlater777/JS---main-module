@@ -34,7 +34,7 @@ ZVSE2
 !!SN:H^art^/(ART_RING_OF_THE_MAGI)/1/(artDesc139:z);
 
 
-!?FU(js_MagicRing_ApplyBonusDamage)&i^js_magic_ring^;
+!?FU(js_MagicRing_ApplyBonusDamage);&i^js_magic_ring^;
 !#VA(hero:x) (power:x) (newPower:x);
 
 !!VR(bonusPowerPercent:y):S0;

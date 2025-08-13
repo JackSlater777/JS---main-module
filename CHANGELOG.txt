@@ -1,3 +1,7 @@
+Version 1.03 (13.08.2025)
+- removed calculations in Handler GetSorceryEffect.erm causing lags
+- moved templates and RMG_MapGenerationFixes plugin to the separate mod
+
 Version 1.02 (24.06.2025)
 - added Jebus Cross JS template (In it the center zone has id=1)
 - fixed def names longer than 8 letters causing errors
