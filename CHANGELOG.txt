@@ -1,3 +1,9 @@
+Version 1.04 (15.08.2025)
+- added JS_Bugfixes.era
+- added to JS_Bugfixes.era adjusted calculation of the number of monsters raised by necromancy, taking into account the number of stacks in the defeated army
+- added HotA_TargetedAoeShot.era - creatures with flag "fireballAttack" can shoot at a hex (press G to activate this feature)
+- removed Controlled AoE Shot.erm - it's not needed anymore
+
 Version 1.03 (13.08.2025)
 - removed calculations in Handler GetSorceryEffect.erm causing lags
 - moved templates and RMG_MapGenerationFixes plugin to the separate mod

@@ -1,8 +1,14 @@
 {
     "jsMod": {
         "shotAtArea": {
-            "Lich": "Shoot poisonous cloud here",
-            "Magog": "Shoot fireball here"
+            "hintFormat": {
+                "singular": "%s can shoot at area (press G to pick a target)",
+                "plural": "%s can shoot at area (press G to pick a target)",
+                "desc": "Shoot here",
+                "descOnTarget": "Shoot at a target %s (shots: %d, damage: %s)",
+                "offDescOnTarget": "Shoot at a target %s",
+                "cannotShootHint": "Select the target of the shot"
+            }
         },
         "artifact": {
             "76": {
