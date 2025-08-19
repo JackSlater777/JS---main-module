@@ -1,3 +1,7 @@
+Version 1.05 (19.08.2025)
+- fixed a bug with incompatibility of WoG-option 007 and Accumulate_Creatures_In_Dwellings.dll
+- updated README
+
 Version 1.04 (15.08.2025)
 - added JS_Bugfixes.era
 - added to JS_Bugfixes.era adjusted calculation of the number of monsters raised by necromancy, taking into account the number of stacks in the defeated army
@@ -12,7 +16,5 @@ Version 1.02 (24.06.2025)
 - added Jebus Cross JS template (In it the center zone has id=1)
 - fixed def names longer than 8 letters causing errors
 
-
 Version 1.01 (22.06.2025)
-
 - hotaStartingArmies options is syncronized with HotA v.1.7.3

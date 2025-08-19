@@ -6,6 +6,11 @@ ZVSE2
 !!UN:P138/0; [WoG-CrBanks]
 !!UN:P140/0; [WoG-Dwellings]
 
+; This option is conflicted with Accumulate_Creatures_In_Dwellings.dll
+!!UN:P7/0; [Accumulate creatures in dwellings]
+
+
+
 
 !#FU(js_DisableWoGOptions):P;
 
