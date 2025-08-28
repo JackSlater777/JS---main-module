@@ -1,3 +1,9 @@
+Version 1.06 (28.08.2025)
+- fixed a bug when necromancy worked on clones or sacrificed units
+- added banNecromancyFromMechsAndElems option; it's no longer a hardcoded fix and can be disabled
+- added empowerBind option - Bind now also cuts attack of the binded stack to half (Heroes 4 style)
+- fixed a sound for monk's shot
+
 Version 1.05 (19.08.2025)
 - fixed a bug with incompatibility of WoG-option 007 and Accumulate_Creatures_In_Dwellings.dll
 - updated README

@@ -47,10 +47,6 @@ ZVSE2
 ; HotA Necromancy
 !!SN&i^js_hota_necromancy^:E(setHook)/1/5128574/(js_Hero_GetNecromancyPower_BeforeReturn); 4E417E
 
-; Fix Necromancy
-!!SN:E(setHook)/1/4681549/(js_BattleMgr_SetWinner_NecromancyOnCreatureIteration); 476F4D
-;!SN:E(setHook)/1/4353651/(js_BanNecromancyFromElementalsAndMechsForAI); // не нужно, т.к. эта функция работает только с отключенным плагином на AI_vs_AI
-
 ; HotA Spell - Slow
 !!SN&i^js_hota_slow^:E(setHook)/1/4475479/(js_OnCalcSlowEffect); 444A57
 
@@ -61,3 +57,6 @@ ZVSE2
 
 ; Fix bugs JS - Allow creatures to cast destroy undead
 !!SN:E(setHook)/1/4440856/(js_AI_Battle_DamageSpell_GetCastToHexVal_BeforeCases); 43C318
+
+; Handler - cases of reduced attack
+!!SN&i^js_empowerBind^:E(setHook)/1/4465007/(js_BattleStack_GetAttackAgainst_AfterCalcAttack); 44216F

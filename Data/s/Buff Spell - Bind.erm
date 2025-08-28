@@ -1,0 +1,21 @@
+ZVSE2
+
+
+; Bind now also cuts attack of the binded stack to half (Heroes 4 style)
+
+
+!?FU(OnAfterErmInstructions);
+!!VR(jsonKey:z):S^jsMod.settings.empowerBind.value^; Check json setting
+!!SN:T(jsonKey)/?(value:z);
+!!VR(jsOpt:y):V(value);
+!!FU&(jsOpt)=0:E;
+
+!!VRi^js_empowerBind^:S(TRUE);
+
+
+!?FU(js_AttackPenaltyForBinding);
+!#VA(hook:x);
+
+!!UN:C(hook)/(STRUCT_HOOK_CONTEXT_EBX)/4/?(attack:y);
+!!VR(attack): :2;
+!!UN:C(hook)/(STRUCT_HOOK_CONTEXT_EBX)/4/(attack);

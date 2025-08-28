@@ -38,6 +38,11 @@
                 "value": true
             },
 
+            "empowerBind": {
+                "desc": "Bind now also cuts attack of the binded stack to half (Heroes 4 style)",
+                "value": true
+            },
+
             "empowerDestroyUndead": {
                 "desc": "Empowered Destroy Undead spell: 10/20/50 + (power*10) ==> 10/20/50 + (power*20)",
                 "value": true
@@ -105,6 +110,11 @@
 
             "hotaNecromancy": {
                 "desc": "All sources of necromancy power are halfed\n; The option is incompatible with WoG-options: necromancy",
+                "value": true
+            },
+
+            "banNecromancyFromMechsAndElems": {
+                "desc": "Necromancy doesn't work with mechanisms (such as golems) and elementals",
                 "value": true
             },
 
