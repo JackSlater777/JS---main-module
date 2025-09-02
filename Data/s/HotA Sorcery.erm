@@ -1,0 +1,32 @@
+Z VSE2
+
+// TODO: Нужно переносить на хайхук
+; It is an addition to wog-option 213 - Sorcery II
+; Changed AI Value of the skill
+
+!?FU(js_CreateERMHook);
+!#VA(setHook:x);
+
+!!UN:P213/?(wogOpt:y);  Sorcery II
+
+!!if&(wogOpt);
+  !!SN:E(setHook)/1/5394720/(js_AI_SkillValue_Sorcery); 525120
+  !!SN:E(setHook)/1/5394742/(js_AI_SkillValue_Sorcery); 525136
+!!en;
+
+
+!?FU(js_AI_SkillValue_Sorcery);
+!!UN:Cx1/(STRUCT_HOOK_CONTEXT_EAX)/4/?(eaxValue:y);
+!!VR(eaxValue): *2;
+!!UN:Cx1/(STRUCT_HOOK_CONTEXT_EAX)/4/(eaxValue);
+
+
+!?FU(js_HotA_Sorcery);
+!!UN:P213/?(wogOpt:y);  Sorcery II
+
+!!if&(wogOpt);
+  !!UN:C5394690/1/2; // _PI->WriteByte(0x525102, 0x2);
+!!en;
+
+
+!#FU(js_HotA_Sorcery):P;

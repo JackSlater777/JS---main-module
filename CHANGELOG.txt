@@ -1,12 +1,28 @@
+Version 1.07 (02.09.2025)
+- massive performance patch - moved many erm scripts to dll
+- added heroes5Learning option:
+	- Basic Enlightenment gives the hero +1 to one of their primary stats for every four levels (including previous levels), and +5% bonus to the experience gained.
+	- Advanced Enlightenment gives the hero +1 to one of their primary stats for every three levels (including previous levels), and +10% bonus to the experience gained.
+	- Expert Enlightenment gives the hero +1 to one of their primary stats for every two levels (including previous levels), and +15% bonus to the experience gained.
+	- Every bonus primary skill point dissappears if Learning is forgotten in Market of Time.
+
+- defs of Prospector, Oil Pump and Mystical Graden (on dirt) for Capturing Option are improved - special thanks to Dalion
+- added AI_Value patches for HotA Artillery
+- added AI_Value patches for HotA Necromancy
+- patched AI logic in cases of HotA First Aid
+
+
 Version 1.06 (28.08.2025)
 - fixed a bug when necromancy worked on clones or sacrificed units
 - added banNecromancyFromMechsAndElems option; it's no longer a hardcoded fix and can be disabled
 - added empowerBind option - Bind now also cuts attack of the binded stack to half (Heroes 4 style)
 - fixed a sound for monk's shot
 
+
 Version 1.05 (19.08.2025)
 - fixed a bug with incompatibility of WoG-option 007 and Accumulate_Creatures_In_Dwellings.dll
 - updated README
+
 
 Version 1.04 (15.08.2025)
 - added JS_Bugfixes.era
@@ -14,13 +30,16 @@ Version 1.04 (15.08.2025)
 - added HotA_TargetedAoeShot.era - creatures with flag "fireballAttack" can shoot at a hex (press G to activate this feature)
 - removed Controlled AoE Shot.erm - it's not needed anymore
 
+
 Version 1.03 (13.08.2025)
 - removed calculations in Handler GetSorceryEffect.erm causing lags
 - moved templates and RMG_MapGenerationFixes plugin to the separate mod
 
+
 Version 1.02 (24.06.2025)
 - added Jebus Cross JS template (In it the center zone has id=1)
 - fixed def names longer than 8 letters causing errors
+
 
 Version 1.01 (22.06.2025)
 - hotaStartingArmies options is syncronized with HotA v.1.7.3

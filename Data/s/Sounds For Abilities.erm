@@ -1,7 +1,8 @@
 ZVSE2
 
 ; Sounds for partial and full block abilities
-
+; ORCCDFND
+; CRUSDFND
 
 !?FU(js_Block_BeforeAnimation)&i^battle_isVisible^;
 !!SN:P^BLOCK^;

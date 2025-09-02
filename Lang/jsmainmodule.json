@@ -11,26 +11,57 @@
             }
         },
         "artifact": {
+            "54": {
+                "name": "Amulet of the Undertaker",
+                "description": "{Amulet of the Undertaker}\n\nWorn about the neck, this amulet increases your Necromancy skill by 2.5%."
+            },
+            "55": {
+                "name": "Vampire's Cowl",
+                "description": "{Vampire's Cowl}\n\nWorn about the shoulders, this cowl increases your Necromancy skill by 5%."
+            },
+            "56": {
+                "name": "Dead Man's Boots",
+                "description": "{Dead Man's Boots}\n\nWorn on the feet, these boots increase your Necromancy skill by 7.5%."
+            },
+            "70": {
+                "name": "Equestrian's Gloves",
+                "description": "{Equestrian's Gloves}\n\nWorn on the hands, these gloves increase your hero's movement points over land by 200."
+            },
             "76": {
-                "addDesc": " Increases the hero's damage spell power by 5%."
+                "name": "Collar of Conjuring",
+                "addDescription": " Increases the hero's damage spell power by 5%."
             },
             "77": {
-                "addDesc": " Increases the hero's damage spell power by 10%."
+                "name": "Ring of Conjuring",
+                "addDescription": " Increases the hero's damage spell power by 10%."
             },
             "78": {
-                "addDesc": " Increases the hero's damage spell power by 15%."
+                "name": "Cape of Conjuring",
+                "addDescription": " Increases the hero's damage spell power by 15%."
+            },
+            "98": {
+                "name": "Boots of Speed",
+                "description": "{Boots of Speed}\n\nWorn on the feet, these boots increase your hero's movement points over land by 400."
             },
             "130": {
-                "desc": "{Cloak of the Death King}\n\nIf the hero does not have the Necromancy skill, then after battle, 15% of the enemies fallen on the battlefield will be resurrected as Skeletons, who will join your army.\n\nIf the hero already has the Necromancy skill, its power is increased by an additional 15%, and instead of Skeletons, the fallen enemies' bodies will be resurrected as:\nZombies at Basic level.\nGuards at Advanced level.\nLiches at Expert level."
+                "name": "Cloak of the Undead King",
+                "description": "{Cloak of the Death King}\n\nIf the hero does not have the Necromancy skill, then after battle, 15% of the enemies fallen on the battlefield will be resurrected as Skeletons, who will join your army.\n\nIf the hero already has the Necromancy skill, its power is increased by an additional 15%, and instead of Skeletons, the fallen enemies' bodies will be resurrected as:\nZombies at Basic level.\nGuards at Advanced level.\nLiches at Expert level."
             },
             "139": {
-                "addDesc": " Increases the hero's damage spell power by 50%."
+                "name": "Ring of the Magi",
+                "addDescription": " Increases the hero's damage spell power by 50%."
             }
         },
-        "building": {
-            "necropolis": {
-                "grail": {
-                    "desc": "Presence of the Soul Prison increases the number of creatures produced by 50% per week, generates 5000 gold daily for the kingdom, and increases Necromancy knowledge by 10% for all allied heroes (who possess this knowledge)."
+        "specialBuilding": {
+            "4": {
+                "name": "Necropolis",
+                "4": {
+                    "name": "Necromancy Amplifier",
+                    "description": "The Necromancy Amplifier increases the Necromancy skill of all heroes you control (with the Necromancy skill) by 5%."
+                },
+                "9": {
+                    "name": "Soul Prison",
+                    "description": "The presence of the Soul Prison increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day, and boosts the Necromancy skill of all allied heroes (who possess the skill) by 10%."
                 }
             }
         },
@@ -78,6 +109,78 @@
             }
         },
         "secSkill": {
+            "0": {
+                "name": "Pathfinding",
+                "description": {
+                    "1": "{Basic Pathfinding}\n\nBasic Pathfinding reduces the movement penalty for rough terrain, reducing the cost of moving one tile by 25 movement points to a minimum of 95.",
+                    "2": "{Advanced Pathfinding}\n\nAdvanced Pathfinding reduces the movement penalty for rough terrain, reducing the cost of moving one tile by 50 movement points to a minimum of 90.",
+                    "3": "{Expert Pathfinding}\n\nExpert Pathfinding removes the movement penalty for rough terrain, reducing the cost of moving one tile by 75 movement points to a minimum of 85."
+                }
+            },
+            "2": {
+                "name": "Logistics",
+                "description": {
+                    "1": "{Basic Logistics}\n\nBasic Logistics increases your hero's movement points over land by 5%.",
+                    "2": "{Advanced Logistics}\n\nAdvanced Logistics increases your hero's movement points over land by 10%.",
+                    "3": "{Expert Logistics}\n\nExpert Logistics increases your hero's movement points over land by 20%."
+                }
+            },
+            "3": {
+                "name": "Scouting",
+                "description": {
+                    "1": "{Basic Scouting}\n\nBasic Scouting allows your hero to see 1 square further into the shroud.",
+                    "2": "{Advanced Scouting}\n\nAdvanced Scouting allows your hero to see 3 squares further into the shroud.",
+                    "3": "{Expert Scouting}\n\nExpert Scouting allows your hero to see 5 squares further into the shroud."
+                }
+            },
+            "8": {
+                "name": "Mysticism",
+                "description": {
+                    "1": "{Basic Mysticism}\n\nBasic Mysticism allows the hero to regenerate 10% of maximum mana per day, but no less than 5 mana points.",
+                    "2": "{Advanced Mysticism}\n\nAdvanced Mysticism allows the hero to regenerate 20% of maximum mana per day, but no less than 10 mana points.",
+                    "3": "{Expert Mysticism}\n\nExpert Mysticism allows the hero to regenerate 30% of maximum mana per day, but no less than 15 mana points."
+                }
+            },
+            "12": {
+                "name": "Necromancy",
+                "description": {
+                    "1": "{Basic Necromancy}\n\nBasic Necromancy allows 5% of the creatures killed in combat to be brought back from the dead as Skeletons.",
+                    "2": "{Advanced Necromancy}\n\nAdvanced Necromancy allows 10% of the creatures killed in combat to be brought back from the dead as Skeletons.",
+                    "3": "{Expert Necromancy}\n\nExpert Necromancy allows 15% of the creatures killed in combat to be brought back from the dead as Skeletons."
+                }
+            },
+            "13": {
+                "name": "Estates",
+                "description": {
+                    "1": "{Basic Estates}\n\nWith Estates, a hero contributes 250 gold per day to your cause.",
+                    "2": "{Advanced Estates}\n\nWith Estates, a hero contributes 500 gold per day to your cause.",
+                    "3": "{Expert Estates}\n\nWith Estates, a hero contributes 1000 gold per day to your cause."
+                }
+            },
+            "21": {
+                "name": "Learning",
+                "description": {
+                    "1": "{Basic Learning}\n\nBasic Learning increases a hero's earned experience by 20%.",
+                    "2": "{Advanced Learning}\n\nAdvanced Learning increases a hero's earned experience by 40%.",
+                    "3": "{Expert Learning}\n\nExpert Learning increases a hero's earned experience by 60%."
+                }
+            },
+            "24": {
+                "name": "Intelligence",
+                "description": {
+                    "1": "{Basic Intelligence}\n\nBasic Intelligence increases a hero's normal maximum spell points by 20%.",
+                    "2": "{Advanced Intelligence}\n\nAdvanced Intelligence increases a hero's normal maximum spell points by 35%.",
+                    "3": "{Expert Intelligence}\n\nExpert Intelligence increases a hero's normal maximum spell points by 50%."
+                }
+            },
+            "27": {
+                "name": "First Aid",
+                "description": {
+                    "1": "{Basic First Aid}\n\nBasic First Aid gives control of the first aid tent to the hero, healing 40-50 points of damage to the first unit of the selected stack. The First Aid Tent increases the hero's creatures' health by 5%.",
+                    "2": "{Advanced First Aid}\n\nAdvanced First Aid gives control of the first aid tent to the hero, healing 60-75 points of damage to the first unit of the selected stack. The First Aid Tent increases the hero's creatures' health by 10%.",
+                    "3": "{Expert First Aid}\n\nExpert First Aid gives control of the first aid tent to the hero, healing 80-100 points of damage to the first unit of the selected stack. The First Aid Tent increases the hero's creatures' health by 15%."
+                }
+            },
             "ballistics": {
                 "desc": {
                     "addDesc": " The catapult participates in regular battles, attacks with fireballs, and has a chance to destroy a creature with chance (6 - creature level + skill level)*5%.",
@@ -88,11 +191,6 @@
                 "desc": {
                     "addDesc": " Each spell target has a @percent@% chance to receive 1.5x damage.",
                     "spec": "\n+10% chance to deal 1.5x damage with spells."
-                }
-            },
-            "firstAid": {
-                "desc": {
-                    "addDesc": " The First Aid Tent increases the hero's creatures' health by @number@%. The First Aid Tent's health is increased by @percent@%."
                 }
             },
             "intelligence": {
@@ -114,20 +212,6 @@
             "learning": {
                 "desc": {
                     "spec": "{Learning}\n\n+5% per level to the secondary skill learning rate."
-                }
-            },
-            "mysticism": {
-                "desc": {
-                    "basic": "{Basic Mysticism}\n\nAllows the hero to regenerate 10% of maximum mana per day, but no less than 5 mana points.",
-                    "advanced": "{Advanced Mysticism}\n\nAllows the hero to regenerate 20% of maximum mana per day, but no less than 10 mana points.",
-                    "expert": "{Expert Mysticism}\n\nAllows the hero to regenerate 30% of maximum mana per day, but no less than 15 mana points."
-                }
-            },
-            "pathfinding": {
-                "desc": {
-                    "basic": "{Basic Pathfinding}\n\nBasic Pathfinding reduces the movement penalty for rough terrain, reducing the cost of moving one tile by 25 movement points to a minimum of 95.",
-                    "advanced": "{Advanced Pathfinding}\n\nAdvanced Pathfinding reduces the movement penalty for rough terrain, reducing the cost of moving one tile by 50 movement points to a minimum of 90.",
-                    "expert": "{Expert Pathfinding}\n\nExpert Pathfinding removes the movement penalty for rough terrain, reducing the cost of moving one tile by 75 movement points to a minimum of 85."
                 }
             },
             "resource": {
@@ -198,6 +282,18 @@
             "55": {
                 "desc": {
                     "spec": "{Executioner}\n\nIncreases Executioner spell effectiveness:\n\n+20 for level 1-2 creatures,\n+16 for level 3-4 creatures,\n+12 for level 5-6 creatures,\n+8 for level 7 creatures."
+                }
+            }
+        },
+        "heroes5": {
+            "secSkill": {
+                "21": {
+                    "name": "Learning",
+                    "description": {
+                        "1": "{Basic Learning}\n\nBasic Learning gives the hero +1 to one of their primary stats for every four levels (including previous levels), and +5% bonus to the experience gained.",
+                        "2": "{Advanced Learning}\n\nAdvanced Learning gives the hero +1 to one of their primary stats for every three levels (including previous levels), and +10% bonus to the experience gained.",
+                        "3": "{Expert Learning}\n\nExpert Learning gives the hero +1 to one of their primary stats for every two levels (including previous levels), and +15% bonus to the experience gained."
+                    }
                 }
             }
         }
