@@ -1,3 +1,17 @@
+Version 1.08 (03.09.2025)
+- added banHitAndRun option:
+	- In two-hero combat, the attacker is forbidden to retreat in the first round of combat after casting a spell
+
+- added hotaSpellSummonElementals:
+	- Summoning Earth and Fire Elementals now has the power of [2/2/2.5/3] * SP
+  	!!! WARNING !!! The hint about amount of summoned units is incorrect. There should be integration with Spells Description
+	- Lifted the ban on summoning different types of elementals in the same combat (it works for AI as well)
+
+- fixed a bug: HotA Intelligence bonus is calculated too late when the map is started
+- fixed a bug: HotA Logistics bonus is calculated too late when the map is started
+- moved options descriptions from json to txt
+
+
 Version 1.07 (02.09.2025)
 - massive performance patch - moved many erm scripts to dll
 - added heroes5Learning option:

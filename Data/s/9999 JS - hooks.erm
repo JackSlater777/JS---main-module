@@ -14,9 +14,6 @@ ZVSE2
 ; Bonus Ballistics
 !!SN&i^js_ballistics_bonus^:E(setHook)/1/4454185/(js_OnBeforeMagogShoot); 0043F729
 
-; HotA Spell - Slow
-!!SN&i^js_hota_slow^:E(setHook)/1/4475479/(js_OnCalcSlowEffect); 444A57
-
 ; Sounds For Abilities
 !!SN:E(setHook)/1/7456434/(js_Block_BeforeAnimation); 71C6B2 Dracolich
 !!SN:E(setHook)/1/7792644/(js_Block_BeforeAnimation); 76E804 Commanders

@@ -226,6 +226,93 @@
             }
         },
         "spell": {
+            "30": {
+                "name": "Protection from Air",
+                "description": {
+                    "2": "{Protection from Air}\n\nProtects the selected unit, reducing damage received from Air spells by 50%.",
+                    "3": "{Basic Protection from Air}\n\nProtects the selected unit, reducing damage received from Air spells by 50%.",
+                    "4": "{Advanced Protection from Air}\n\nProtects the selected unit, reducing damage received from Air spells by 75%.",
+                    "5": "{Expert Protection from Air}\n\nProtects the selected unit, reducing damage received from Air spells by 75%."
+                }
+            },
+            "31": {
+                "name": "Protection from Fire",
+                "description": {
+                    "2": "{Protection from Fire}\n\nProtects the selected unit, reducing damage received from Fire spells by 50%.",
+                    "3": "{Basic Protection from Fire}\n\nProtects the selected unit, reducing damage received from Fire spells by 50%.",
+                    "4": "{Advanced Protection from Fire}\n\nProtects the selected unit, reducing damage received from Fire spells by 75%.",
+                    "5": "{Expert Protection from Fire}\n\nProtects the selected unit, reducing damage received from Fire spells by 75%."
+                }
+            },
+            "32": {
+                "name": "Protection from Water",
+                "description": {
+                    "2": "{Protection from Water}\n\nProtects the selected unit, reducing damage received from Water spells by 50%.",
+                    "3": "{Basic Protection from Water}\n\nProtects the selected unit, reducing damage received from Water spells by 50%.",
+                    "4": "{Advanced Protection from Water}\n\nProtects the selected unit, reducing damage received from Water spells by 75%.",
+                    "5": "{Expert Protection from Water}\n\nProtects the selected unit, reducing damage received from Water spells by 75%."
+                }
+            },
+            "33": {
+                "name": "Protection from Earth",
+                "description": {
+                    "2": "{Protection from Earth}\n\nProtects the selected unit, reducing damage received from Earth spells by 50%.",
+                    "3": "{Basic Protection from Earth}\n\nProtects the selected unit, reducing damage received from Earth spells by 50%.",
+                    "4": "{Advanced Protection from Earth}\n\nProtects the selected unit, reducing damage received from Earth spells by 75%.",
+                    "5": "{Expert Protection from Earth}\n\nProtects the selected unit, reducing damage received from Earth spells by 75%."
+                }
+            },
+            "54": {
+                "name": "Slow",
+                "description": {
+                    "2": "{Slow}\n\nReduces the speed of the selected enemy unit by 25%.",
+                    "3": "{Basic Slow}\n\nReduces the speed of the selected enemy unit by 25%.",
+                    "4": "{Advanced Slow}\n\nReduces the speed of the selected enemy unit according to formula ((native speed х 0,5) + 1).",
+                    "5": "{Expert Slow}\n\nReduces the speed of all enemy units according to formula ((native speed х 0,5) + 1)."
+                }
+            },
+            "66": {
+                "name": "Summon Fire Elemental",
+                "description": {
+                    "2": "{Summon Fire Elemental}\n\nAllows you to summon (Spell Power x 2) fire elementals to a random position on your side of the battlefield. The Elementals will serve you until the end of the battle.\n",
+                    "3": "{Basic Summon Fire Elemental}\n\nAllows you to summon (Spell Power x 2) fire elementals to a random position on your side of the battlefield. The Elementals will serve you until the end of the battle.\n",
+                    "4": "{Advanced Summon Fire Elemental}\n\nAllows you to summon (Spell Power x 2.5) fire elementals to a random position on your side of the battlefield. The Elementals will serve you until the end of the battle.\n",
+                    "5": "{Expert Summon Fire Elemental}\n\nAllows you to summon (Spell Power x 3) fire elementals to a random position on your side of the battlefield. The Elementals will serve you until the end of the battle.\n"
+                }
+            },
+            "67": {
+                "name": "Summon Earth Elemental",
+                "description": {
+                    "2": "{Summon Earth Elemental}\n\nAllows you to summon (Spell Power x 2) earth elementals to a random position on your side of the battlefield. The Elementals will serve you until the end of the battle.\n",
+                    "3": "{Basic Summon Earth Elemental}\n\nAllows you to summon (Spell Power x 2) earth elementals to a random position on your side of the battlefield. The Elementals will serve you until the end of the battle.\n",
+                    "4": "{Advanced Summon Earth Elemental}\n\nAllows you to summon (Spell Power x 2.5) earth elementals to a random position on your side of the battlefield. The Elementals will serve you until the end of the battle.\n",
+                    "5": "{Expert Summon Earth Elemental}\n\nAllows you to summon (Spell Power x 3) earth elementals to a random position on your side of the battlefield. The Elementals will serve you until the end of the battle.\n"
+                }
+            },
+            "68": {
+                "name": "Summon Water Elemental",
+                "description": {
+                    "2": "{Summon Water Elemental}\n\nAllows you to summon (Spell Power x 2) water elementals to a random position on your side of the battlefield. The Elementals will serve you until the end of the battle.\n",
+                    "3": "{Basic Summon Water Elemental}\n\nAllows you to summon (Spell Power x 2) water elementals to a random position on your side of the battlefield. The Elementals will serve you until the end of the battle.\n",
+                    "4": "{Advanced Summon Water Elemental}\n\nAllows you to summon (Spell Power x 3) water elementals to a random position on your side of the battlefield. The Elementals will serve you until the end of the battle.\n",
+                    "5": "{Expert Summon Water Elemental}\n\nAllows you to summon (Spell Power x 4) water elementals to a random position on your side of the battlefield. The Elementals will serve you until the end of the battle.\n"
+                }
+            },
+            "69": {
+                "name": "Summon Air Elemental",
+                "description": {
+                    "2": "{Summon Air Elemental}\n\nAllows you to summon (Spell Power x 2) air elementals to a random position on your side of the battlefield. The Elementals will serve you until the end of the battle.\n",
+                    "3": "{Basic Summon Air Elemental}\n\nAllows you to summon (Spell Power x 2) air elementals to a random position on your side of the battlefield. The Elementals will serve you until the end of the battle.\n",
+                    "4": "{Advanced Summon Air Elemental}\n\nAllows you to summon (Spell Power x 3) air elementals to a random position on your side of the battlefield. The Elementals will serve you until the end of the battle.\n",
+                    "5": "{Expert Summon Air Elemental}\n\nAllows you to summon (Spell Power x 4) air elementals to a random position on your side of the battlefield. The Elementals will serve you until the end of the battle.\n"
+                }
+            },
+
+
+
+
+
+
             "23193839": {
                 "desc": {
                     "spec": "\n\nIncreases spell effectiveness by 5% per n hero levels, where n is the target’s level."
@@ -269,14 +356,6 @@
             "53": {
                 "desc": {
                     "spec": "{Haste}\n\nIncreases Haste spell effectiveness:\n\n+3 for level 1-4 creatures,\n+2 for level 5-6 creatures,\n+1 for level 7 creatures."
-                }
-            },
-            "54": {
-                "desc": {
-                    "common": {
-                        "toReplace": "up to 50%",
-                        "replacer": "up to 50% + 1"
-                    }
                 }
             },
             "55": {
