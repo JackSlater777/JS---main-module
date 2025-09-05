@@ -1,3 +1,13 @@
+Version 1.09 (05.09.2025)
+- added banCloakOfTheUndeadKing
+	- - The Cloak of the Undead King is not allowed to be assembled by default
+
+- added restrictDimensionDoorQty:
+	- Dimension Door is limited to being used once per day, and twice per day if hero has expert Air Magic
+
+- banHitAndRun option: added correct behaviour for AI - it willnot cast a spell if it should retreat during the first round in battle against another hero
+
+
 Version 1.08 (03.09.2025)
 - added banHitAndRun option:
 	- In two-hero combat, the attacker is forbidden to retreat in the first round of combat after casting a spell

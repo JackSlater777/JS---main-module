@@ -8,6 +8,9 @@ alternativeUseOfBannersAndArtifacts
 artMagicRing
 - Magic Ring and its components grant +5/10/15/50% magic damage
 
+banCloakOfTheUndeadKing
+- The Cloak of the Undead King is not allowed to be assembled by default
+
 banHitAndRun
 - In two-hero combat, the attacker is forbidden to retreat in the first round of combat after casting a spell
 - (waitForEmeraldIntegration) The Diplomat's Mantle now allows the player to flee (rather than capitulate only) after a spell cast by an attacking hero in the first round of combat
@@ -26,6 +29,9 @@ masterGremlinUpgradeBan
 
 replaceGalthran
 - Replace Galthran with Ranloo
+
+restrictDimensionDoorQty
+- Dimension Door is limited to being used once per day, and twice per day if hero has expert Air Magic
 
 
 
