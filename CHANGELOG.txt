@@ -1,8 +1,16 @@
-Version 1.09 (05.09.2025)
-- added banCloakOfTheUndeadKing
-	- - The Cloak of the Undead King is not allowed to be assembled by default
+Version 1.10 (11.09.2025)
+- mod is now marked as incompatible with ACM
+- fixed a bug with incorrect learning skill description if heroes5Learning option is active
+- added antiStealDimensionDoor option:
+	- The combat will start if a hero moves to a guarded tile after casting the Dimension Door.
+	Casting cursor will change its appearance in that case
 
-- added restrictDimensionDoorQty:
+
+Version 1.09 (05.09.2025)
+- added banCloakOfTheUndeadKing option:
+	- The Cloak of the Undead King is not allowed to be assembled by default
+
+- added restrictDimensionDoorQty option:
 	- Dimension Door is limited to being used once per day, and twice per day if hero has expert Air Magic
 
 - banHitAndRun option: added correct behaviour for AI - it willnot cast a spell if it should retreat during the first round in battle against another hero
@@ -12,7 +20,7 @@ Version 1.08 (03.09.2025)
 - added banHitAndRun option:
 	- In two-hero combat, the attacker is forbidden to retreat in the first round of combat after casting a spell
 
-- added hotaSpellSummonElementals:
+- added hotaSpellSummonElementals option:
 	- Summoning Earth and Fire Elementals now has the power of [2/2/2.5/3] * SP
   	!!! WARNING !!! The hint about amount of summoned units is incorrect. There should be integration with Spells Description
 	- Lifted the ban on summoning different types of elementals in the same combat (it works for AI as well)

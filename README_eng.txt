@@ -12,11 +12,18 @@ List of plugins:
 - Accumulate_Creatures_In_Dwellings.dll – if an external dwelling is captured, it accumulates creatures from week to week
 - always_3_army_stack_and_2_lvl_creature_building_built.dll – the player always starts with a full army, and the player's starting castle has the level 2 creature building constructed
 - ConfluxDwellingType20.era – external dwelling of Conflux creatures with 4 slots grants +1 Conflux bonus to all four elementals for the player, not just air elementals
-- HotA_Pathfinding_and_WayfarersBoots.era – Pathfinding works as in HotA; added artifact from HotA – Wayfarer's Boots (requires JS submodule – emerald)
-- HotA_SpecBonus.era – hero specializations for creatures and spells work as in HotA
 - HotA_TargetedAoeShot.era - added ability for controlled area shot on creatures with MON_FLAG_SPLASH_SHOOTER by pressing G
 - InstantAnim.dll – adds continuous animation to creatures in battle, as in HotA
-- JS_BugFixes.era - added some bug fixes
+
+
+List of options:
+- check jsmainmodule_settings.txt for detailed information
+- check jsmainmodule_settings.json for the options customization
+- to disable an option, change the "value" key from true to false, and vice versa
+
+
+Configurable WoG-ification of artifacts and banners:
+- see jsmainmodule_wogify.json: WoG-ification of artifacts and banners is organized and customizable; you can specify which artifact types to replace and with what chance
 
 
 List of new graphics for objects:
@@ -34,21 +41,10 @@ List of new graphics for objects:
 - avmoilpm.def – Water Wheel for underground terrain
 
 
-List of options:
-- see jsmainmodule_settings.json: the list contains over 30 options, each with a description of its effect and compatibility with WoG options
-- to disable an option, change the "value" key from true to false, and vice versa
-
-
-Configurable WoG-ification of artifacts and banners:
-- see jsmainmodule_wogify.json: WoG-ification of artifacts and banners is organized and customizable; you can specify which artifact types to replace and with what chance
-
-
 Other changes:
 - AI_Value of monsters adjusted according to HotA
 - value, density, and zone restrictions of objects adjusted according to HotA
-- necromancy forbidden for elementals and mechanical creatures
 - "water" artifacts, spells, and Navigation are forbidden on "land" maps; Heroes with the Navigation specialization are replaced by HotA heroes (Beatrice, Kinkeria)
-- Hourglass of Unfavorable Hour neutralizes luck only if it is positive
 - added sounds for partial and full block abilities
 - added animation for full block
 - minefield spell animation sped up
