@@ -1,6 +1,6 @@
 {
 	"caption": {
-		"en_US": "JS - main module v.1.11",
+		"en_US": "JS - main module v.1.12",
 		"ru_RU": ""
 	},
 	"description": {
@@ -19,12 +19,10 @@
 		"file": "js - main module.png",
 		"index": 0
 	},
-	"mod_version": "1.11",
+	"mod_version": "1.12",
 	"priority": 3,
 	"compatibility": {
 		"incompatible": [
-			"Advanced Classes Mod",
-			"Advanced Classes Mod Rus"
 		]
 	},
 	"platform": "era",

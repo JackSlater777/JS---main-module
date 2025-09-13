@@ -1,3 +1,7 @@
+Version 1.12 (13.09.2025)
+- restored mod compatibility with ACM. Option hotaSpellSummonElementals will not work if ACM is enabled.
+
+
 Version 1.11 (13.09.2025)
 - added heroes4Diplomacy option:
 	- Diplomacy skill allows to buy a part of hostile neutral army if it is fearfull against you.
