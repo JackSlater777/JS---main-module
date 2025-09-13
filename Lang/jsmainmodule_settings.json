@@ -11,6 +11,9 @@
                 "incompatibleWith": "enhanced artifacts II",
                 "value": true
             },
+            "antiStealDimensionDoor": {
+                "value": true
+            },
             "banCloakOfTheUndeadKing": {
                 "value": true
             },
@@ -67,6 +70,11 @@
 
 
 
+
+            "heroes4Diplomacy": {
+                "incompatibleWith": "option 786",
+                "value": true
+            },
             "heroes5Learning": {
                 "incompatibleWith": "hotaLearning, learning I, learning II",
                 "value": true
@@ -135,6 +143,7 @@
                 "value": true
             },
             "hotaSpellSummonElementals": {
+                "incompatibleWith": "ACM",
                 "value": true
             },
             "hotaStartingArmies": {

@@ -5,6 +5,10 @@ alternativeCastleUpgrading
 alternativeUseOfBannersAndArtifacts
 - option 796 - use of the scrolls and banners - The destruction of spell scrolls does not give mana, the destruction of artifacts does not give experience. The option is used for the possibility to clean up a backpack
 
+antiStealDimensionDoor
+- The combat will start if a hero moves to a guarded tile after casting the Dimension Door.
+  Casting cursor will change its appearance in that case
+
 artMagicRing
 - Magic Ring and its components grant +5/10/15/50% magic damage
 
@@ -65,6 +69,12 @@ empowerLandmine
 - Native terrain creatures will see landmine as normal but will take damage from mines
 
 
+heroes4Diplomacy
+- Diplomacy skill allows to buy a part of hostile neutral army if it is fearfull against you
+- Free diplomatic join is no longer possible
+- Artifacts of diplomacy give +15% to buyable exp cap
+- AI always prefer to buy creatures if it has enough gold and feels that a buyable stack is stronger than any of stacks in the army
+- Spell "Visions" is adjusted to the option. You can see the amount of creatures you can buy
 
 heroes5Learning
 - Basic Enlightenment gives the hero +1 to one of their primary stats for every four levels (including previous levels), and +5% bonus to the experience gained

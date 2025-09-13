@@ -364,6 +364,33 @@
                 }
             }
         },
+        "heroes4": {
+            "artifact": {
+                "66": {
+                    "name": "Statesmans Medal",
+                    "addDescription": " Increases the effect of bribing creatures by 15%."
+                },
+                "67": {
+                    "name": "Diplomats Ring",
+                    "addDescription": " Increases the effect of bribing creatures by 15%."
+                },
+                "68": {
+                    "name": "Ambassadors Sash",
+                    "addDescription": " Increases the effect of bribing creatures by 15%."
+                }
+            },
+            "secSkill": {
+                "4": {
+                    "name": "Diplomacy",
+                    "description": {
+                        "1": "{Basic Diplomacy}\n\nBasic Diplomacy gives the hero the ability to convince 30% of greatly outnumbered hostile creatures to desert for a price. The hero can sway no more than 120 experience points of creatures. Also, it reduces the cost of surrendering by 20%.",
+                        "2": "{Advanced Diplomacy}\n\nAdvanced Diplomacy gives the hero the ability to convince 40% of greatly outnumbered hostile creatures to desert for a price. The hero can sway no more than 240 experience points of creatures. Also, it reduces the cost of surrendering by 40%.",
+                        "3": "{Expert Diplomacy}\n\nExpert Diplomacy gives the hero the ability to convince 50% of greatly outnumbered hostile creatures to desert for a price. The hero can sway no more than 360 experience points of creatures. Also, it reduces the cost of surrendering by 60%."
+                    },
+                    "format": "But %d creatures will join us for a fee of %d gold."
+                }
+            }
+        },
         "heroes5": {
             "secSkill": {
                 "21": {

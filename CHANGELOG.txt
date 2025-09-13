@@ -1,3 +1,14 @@
+Version 1.11 (13.09.2025)
+- added heroes4Diplomacy option:
+	- Diplomacy skill allows to buy a part of hostile neutral army if it is fearfull against you.
+	Free diplomatic join is no longer possible.
+	Artifacts of diplomacy give +15% to buyable exp cap.
+	AI always prefer to buy creatures if it has enough gold and feels that a buyable stack is stronger than any of stacks in the army.
+	Spell "Visions" is adjusted to the option. You can see the amount of creatures you can buy.
+
+- deleted always_3_army_stack_and_2_lvl_creature_building_built.dll, it's not needed anymore
+
+
 Version 1.10 (11.09.2025)
 - mod is now marked as incompatible with ACM
 - fixed a bug with incorrect learning skill description if heroes5Learning option is active
