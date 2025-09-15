@@ -1,3 +1,9 @@
+Version 1.13 (15.09.2025)
+- added hotaVaultOfAshes option:
+	- it adds a new building to Conflux town: The Vault of Ashes
+	it increases growth of Firebirds and Phoenixes by 1
+
+
 Version 1.12 (13.09.2025)
 - restored mod compatibility with ACM. Option hotaSpellSummonElementals will not work if ACM is enabled.
 

@@ -177,3 +177,9 @@ hotaStartingArmies
 hotaTownBuildings
 - TODO: more informative description
 - It implements HotA town buildings dependencies and costs
+
+hotaVaultOfAshes
+- it adds a new building to Conflux town: The Vault of Ashes
+- it increases growth of Firebirds and Phoenixes by 1
+
+

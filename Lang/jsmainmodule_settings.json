@@ -152,6 +152,10 @@
             },
             "hotaTownBuildings": {
                 "value": true
+            },
+            "hotaVaultOfAshes": {
+                "incompatibleWith": "Neutral Town",
+                "value": true
             }
         }
     }

@@ -63,6 +63,23 @@
                     "name": "Soul Prison",
                     "description": "The presence of the Soul Prison increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day, and boosts the Necromancy skill of all allied heroes (who possess the skill) by 10%."
                 }
+            },
+            "8": {
+                "name": "Conflux",
+                "7": {
+                    "name": "Vault of Ashes",
+                    "description": "The Vault of Ashes increases Firebirds production by 1 per week.",
+                    "mainDef": "TBELHrd3",
+                    "bordDef": "TOELHrd3",
+                    "icon": "BoEHRD3.pcx"
+                },
+                "8": {
+                    "name": "Vault of Ashes",
+                    "description": "The Vault of Ashes increases Phoenixes production by 1 per week.",
+                    "mainDef": "TBELHrd4",
+                    "bordDef": "TOELHrd4",
+                    "icon": "BoEHRD4.pcx"
+                }
             }
         },
         "creature": {
