@@ -9,8 +9,6 @@ For proper operation, the mod requires:
 
 
 List of plugins:
-- Accumulate_Creatures_In_Dwellings.dll – if an external dwelling is captured, it accumulates creatures from week to week
-- ConfluxDwellingType20.era – external dwelling of Conflux creatures with 4 slots grants +1 Conflux bonus to all four elementals for the player, not just air elementals
 - HotA_TargetedAoeShot.era - added ability for controlled area shot on creatures with MON_FLAG_SPLASH_SHOOTER by pressing G
 - InstantAnim.dll – adds continuous animation to creatures in battle, as in HotA
 

@@ -1,3 +1,5 @@
+accumulateCreaturesInDwellings
+- If an external dwelling is captured, it accumulates creatures from week to week
 
 alternativeCastleUpgrading
 - It changes the cost of building an additional growth: it is now equal to the sum of the resources needed to build an unimproved and improved dwelling of the creature, and the growth bonus is equal to the base growth
@@ -82,15 +84,19 @@ heroes5Learning
 - Expert Enlightenment gives the hero +1 to one of their primary stats for every two levels (including previous levels), and +15% bonus to the experience gained
 - Every bonus primary skill point dissappears if Learning is forgotten in Market of Time
 
-
+hotaConfluxDwellingType20
+- External dwelling of Conflux creatures with 4 slots grants +1 Conflux bonus to all four elementals for the player, not just air elementals
 
 hotaArtillery
 - Ballista price reduced from 2500 to 1500
 - Ballista damage formula changed from [2-3 * (attack + 1)] to [2-3 * (attack + 5)]
 - !!!NOT IMPLEMENTED!!! Artillery protects the Ballista and Cannon, preventing them from losing more than 40% HP in a single hit
 
-hotaCreaturesCost
-- Replace the cost of next creatures with HotA values: Psycho Elemental, Magic Elemental, Firebird, Phoenix
+
+
+hotaCreatures
+- Replace the costs of next creatures with HotA costs: Psycho Elemental, Magic Elemental, Firebird, Phoenix
+- Removed fire immunity from Firebirds, added 50% fire resistance
 
 hotaEstates
 - The value of the Estates skill has been increased from 125/250/500 to 250/500/1000

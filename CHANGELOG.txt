@@ -1,3 +1,13 @@
+Version 1.14 (16.09.2025)
+- moved hotaCreaturesCost option to plugin
+- renamed hotaCreaturesCost option into hotaCreatures
+- hotaCreaturesCost option: remove fire immunity from Firebirds, added 50% fire resistance
+- hotaVaultOfAshes option: added incompatibility with TUM mod
+- moved ConfluxDwellingType20.era into HotaConfluxDwellingType20 option
+- added accumulateCreaturesInDwellings option. it is automatically disabled when option 7 is activated, so there is no need to off .dll file anymore
+- removed Accumulate_Creatures_In_Dwellings.dll
+
+
 Version 1.13 (15.09.2025)
 - added hotaVaultOfAshes option:
 	- it adds a new building to Conflux town: The Vault of Ashes

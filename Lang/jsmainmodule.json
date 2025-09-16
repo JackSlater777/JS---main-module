@@ -52,6 +52,21 @@
                 "addDescription": " Increases the hero's damage spell power by 50%."
             }
         },
+        "creature": {
+            "75": {
+                "addDesc": " Applies a random negative spell. Neutralizes positive spells."
+            },
+            "120": {
+                "addDesc": " Deals half damage to creatures immune to mind magic."
+            },
+            "130": {
+                "name": "Firebird",
+                "description": "Flies. Breath attack. Damage from fire spells reduced by 50%."
+            },
+            "145": {
+                "addDesc": " Shoots a Fireball. Critical Shot."
+            }
+        },
         "specialBuilding": {
             "4": {
                 "name": "Necropolis",
@@ -80,17 +95,6 @@
                     "bordDef": "TOELHrd4",
                     "icon": "BoEHRD4.pcx"
                 }
-            }
-        },
-        "creature": {
-            "75": {
-                "addDesc": " Applies a random negative spell. Neutralizes positive spells."
-            },
-            "120": {
-                "addDesc": " Deals half damage to creatures immune to mind magic."
-            },
-            "145": {
-                "addDesc": " Shoots a Fireball. Critical Shot."
             }
         },
         "heroReplacement": {

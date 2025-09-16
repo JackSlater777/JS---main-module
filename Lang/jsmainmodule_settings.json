@@ -1,6 +1,10 @@
 {
     "jsMod": {
         "settings": {
+            "accumulateCreaturesInDwellings": {
+                "incompatibleWith": "option 7",
+                "value": true
+            },
             "alternativeCastleUpgrading": {
                 "value": true
             },
@@ -79,11 +83,19 @@
                 "incompatibleWith": "hotaLearning, learning I, learning II",
                 "value": true
             },
+
+
+
+
             "hotaArtillery": {
                 "incompatibleWith": "enhanced war machines I, II and III, warfare",
                 "value": true
             },
-            "hotaCreaturesCost": {
+            "hotaConfluxDwellingType20": {
+                "value": true
+            },
+            "hotaCreatures": {
+                "incompatibleWith": "enhanced creatures (option 50), option 37",
                 "value": true
             },
             "hotaEstates": {
@@ -117,7 +129,6 @@
                 "value": true
             },
             "hotaScouting": {
-                "desc": "",
                 "incompatibleWith": "scouting I, scouting II, scouting III",
                 "value": true
             },
