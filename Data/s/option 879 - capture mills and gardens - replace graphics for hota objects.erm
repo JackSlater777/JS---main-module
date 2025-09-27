@@ -19,8 +19,4 @@ ZVSE2
   !!re i/0/10;(end_value);
     !!SN:R^avmoilpm.def:0_%i.png^/^Data\Defs\ESoilpm0.def\0_%i.png^;
   !!en;
-  //replace prospectors
-  !!re i/0/41;(end_value);
-    !!SN:R^avtprosp.def:0_%i.png^/^Data\Defs\ESprosp0.def\0_%i.png^;
-  !!en;
 !!en;

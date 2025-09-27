@@ -1,6 +1,6 @@
 {
 	"caption": {
-		"en_US": "JS - main module v.1.14a",
+		"en_US": "JS - main module v.1.15",
 		"ru_RU": ""
 	},
 	"description": {
@@ -19,7 +19,7 @@
 		"file": "js - main module.png",
 		"index": 0
 	},
-	"mod_version": "1.14a",
+	"mod_version": "1.15",
 	"priority": 3,
 	"compatibility": {
 		"incompatible": [

@@ -1,3 +1,6 @@
+Version 1.15 (27.09.2025)
+- removed prospector's assets
+
 Version 1.14 (16.09.2025)
 - moved hotaCreaturesCost option to plugin
 - renamed hotaCreaturesCost option into hotaCreatures
