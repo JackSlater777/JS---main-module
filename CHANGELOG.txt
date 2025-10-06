@@ -1,5 +1,11 @@
+Version 1.16 (06.10.2025)
+- added missed description to hotaCreatures option
+- moved griphics for already existing objects to "JS - new objects"
+
+
 Version 1.15 (27.09.2025)
 - removed prospector's assets
+
 
 Version 1.14 (16.09.2025)
 - moved hotaCreaturesCost option to plugin

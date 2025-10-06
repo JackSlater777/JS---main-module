@@ -95,6 +95,7 @@ hotaArtillery
 
 
 hotaCreatures
+- The basic Growth of Firebirds and Phoenixes is reduced from 2 to 1
 - Replace the costs of next creatures with HotA costs: Psycho Elemental, Magic Elemental, Firebird, Phoenix
 - Removed fire immunity from Firebirds, added 50% fire resistance
 

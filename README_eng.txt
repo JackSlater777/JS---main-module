@@ -23,24 +23,7 @@ Configurable WoG-ification of artifacts and banners:
 - see jsmainmodule_wogify.json: WoG-ification of artifacts and banners is organized and customizable; you can specify which artifact types to replace and with what chance
 
 
-List of new graphics for objects:
-- AVSutop5.def – Dragon Utopia for swamp terrain
-- AVSutop8.def – Dragon Utopia for lava terrain
-- AVXfyth7.def – Fountain of Youth for underground terrain
-- AVTmystd.def – Mystic Garden for mud terrain
-- avtprosp.def – Mystic Garden for sand and underground terrain
-- AVXstbl7.def – Stables for lava and underground terrain
-- AVXtrek2.def – Tree of Wisdom for sand terrain
-- AVXtrek5.def – Tree of Wisdom for swamp terrain
-- AVXtrek3.def – Tree of Wisdom for rocky terrain (taken from WoG base build)
-- AVXtrek7.def – Tree of Wisdom for lava and underground terrain
-- HAExit01.def – Gates of the Underworld for underground terrain
-- avmoilpm.def – Water Wheel for underground terrain
-
-
 Other changes:
-- AI_Value of monsters adjusted according to HotA
-- value, density, and zone restrictions of objects adjusted according to HotA
 - "water" artifacts, spells, and Navigation are forbidden on "land" maps; Heroes with the Navigation specialization are replaced by HotA heroes (Beatrice, Kinkeria)
 - added sounds for partial and full block abilities
 - added animation for full block
