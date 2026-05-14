@@ -413,13 +413,52 @@
             }
         },
         "heroes5": {
+            "artifact": {
+                "54": {
+                    "name": "Amulet of the Undertaker",
+                    "description": "{Amulet of the Undertaker}\n\nReduces the cost of dark energy to raise undead by 2.5%."
+                },
+                "55": {
+                    "name": "Vampire's Cowl",
+                    "description": "{Vampire's Cowl}\n\nReduces the cost of dark energy to raise undead by 5%."
+                },
+                "56": {
+                    "name": "Dead Man's Boots",
+                    "description": "{Dead Man's Boots}\n\nReduces the cost of dark energy to raise undead by 7.5%."
+                },
+                "130": {
+                    "name": "Cloak of the Undead King",
+                    "description": "{Cloak of the Undead King}\n\nIn addition to components, reduces the cost of dark energy to raise undead by 5%."
+                }
+            },
             "secSkill": {
+                "12": {
+                    "name": "Necromancy",
+                    "description": {
+                        "1": "{Basic Necromancy}\n\nBasic Necromancy allows a Necromancer to raise 10% of fallen enemy living creatures as own soldiers (a limited number of creatures can be raised per week). Increases the number of dark energy points.",
+                        "2": "{Advanced Necromancy}\n\nAdvanced Necromancy allows a Necromancer to raise 20% of fallen enemy living creatures as own soldiers (a limited number of creatures can be raised per week). Increases the number of dark energy points.",
+                        "3": "{Expert Necromancy}\n\nExpert Necromancy allows a Necromancer to raise 30% of fallen enemy living creatures as own soldiers (a limited number of creatures can be raised per week). Increases the number of dark energy points."
+                    }
+                },
                 "21": {
                     "name": "Learning",
                     "description": {
                         "1": "{Basic Learning}\n\nBasic Learning gives the hero +1 to one of their primary stats for every four levels (including previous levels), and +5% bonus to the experience gained.",
                         "2": "{Advanced Learning}\n\nAdvanced Learning gives the hero +1 to one of their primary stats for every three levels (including previous levels), and +10% bonus to the experience gained.",
                         "3": "{Expert Learning}\n\nExpert Learning gives the hero +1 to one of their primary stats for every two levels (including previous levels), and +15% bonus to the experience gained."
+                    }
+                }
+            },
+            "specialBuilding": {
+                "4": {
+                    "name": "Necropolis",
+                    "4": {
+                        "name": "Necromancy Amplifier",
+                        "description": "The Necromancy Amplifier increases the Necromancy skill of all heroes you control (with the Necromancy skill) by 10%. Adds 150 points of Dark Energy (for each Necromancy Amplifier owned)."
+                    },
+                    "9": {
+                        "name": "Soul Prison",
+                        "description": "The presence of the Soul Prison increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day, boosts the Necromancy skill of all allied heroes (who possess the skill) by 50% and adds 150 points of Dark Energy."
                     }
                 }
             }

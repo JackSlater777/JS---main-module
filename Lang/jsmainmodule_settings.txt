@@ -1,6 +1,11 @@
 accumulateCreaturesInDwellings
 - If an external dwelling is captured, it accumulates creatures from week to week
 
+aiModule
+- It changes the behaviour of AI
+- Current changes:
+	- AI Necromancer hero will never allow neutral creatures to flee
+
 alternativeCastleUpgrading
 - It changes the cost of building an additional growth: it is now equal to the sum of the resources needed to build an unimproved and improved dwelling of the creature, and the growth bonus is equal to the base growth
 
@@ -71,6 +76,7 @@ empowerLandmine
 - Native terrain creatures will see landmine as normal but will take damage from mines
 
 
+
 heroes4Diplomacy
 - Diplomacy skill allows to buy a part of hostile neutral army if it is fearfull against you
 - Free diplomatic join is no longer possible
@@ -78,11 +84,24 @@ heroes4Diplomacy
 - AI always prefer to buy creatures if it has enough gold and feels that a buyable stack is stronger than any of stacks in the army
 - Spell "Visions" is adjusted to the option. You can see the amount of creatures you can buy
 
+
+
 heroes5Learning
 - Basic Enlightenment gives the hero +1 to one of their primary stats for every four levels (including previous levels), and +5% bonus to the experience gained
 - Advanced Enlightenment gives the hero +1 to one of their primary stats for every three levels (including previous levels), and +10% bonus to the experience gained
 - Expert Enlightenment gives the hero +1 to one of their primary stats for every two levels (including previous levels), and +15% bonus to the experience gained
 - Every bonus primary skill point dissappears if Learning is forgotten in Market of Time
+
+heroes5Necromancy
+- Implemented a system of necromancy from HoMM5. You can get an info about it here: http://www.heroesofmightandmagic.com/heroes5/ability_necromancy.shtml
+- Key differences from HoMM5 necromancy system:
+	- The raising map can be customized - see here \JS - main module\Lang\jsmainmodule_h5necro_mapping.json
+	- Necromancy percentages are changed from 20/30/40% to 10/20/30%
+	- Amulet of the Undertaker reduces raising costs by 2.5% (instead of 10%)
+	- Vampire's Cowl reduces raising costs by 5%
+	- Dead Man's Boots reduce raising costs by 7.5%
+	- Cloak of the Undead King addes another 5% to raising costs reduction (reduces raising costs by 20% in total)
+
 
 hotaConfluxDwellingType20
 - External dwelling of Conflux creatures with 4 slots grants +1 Conflux bonus to all four elementals for the player, not just air elementals
@@ -91,8 +110,6 @@ hotaArtillery
 - Ballista price reduced from 2500 to 1500
 - Ballista damage formula changed from [2-3 * (attack + 1)] to [2-3 * (attack + 5)]
 - !!!NOT IMPLEMENTED!!! Artillery protects the Ballista and Cannon, preventing them from losing more than 40% HP in a single hit
-
-
 
 hotaCreatures
 - The basic Growth of Firebirds and Phoenixes is reduced from 2 to 1

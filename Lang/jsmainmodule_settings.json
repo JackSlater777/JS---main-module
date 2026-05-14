@@ -5,6 +5,9 @@
                 "incompatibleWith": "option 7",
                 "value": true
             },
+            "aiModule": {
+                "value": true
+            },
             "alternativeCastleUpgrading": {
                 "value": true
             },
@@ -19,12 +22,14 @@
                 "value": true
             },
             "banCloakOfTheUndeadKing": {
+                "incompatibleWith": "heroes5Necromancy",
                 "value": true
             },
             "banHitAndRun": {
                 "value": true
             },
             "banNecromancyFromMechsAndElems": {
+                "incompatibleWith": "heroes5Necromancy",
                 "value": true
             },
             "banSpellsFromArtifacts": {
@@ -77,11 +82,19 @@
 
             "heroes4Diplomacy": {
                 "incompatibleWith": "option 786",
-                "value": true
+                "value": false
             },
+
+
+
+
             "heroes5Learning": {
                 "incompatibleWith": "hotaLearning, learning I, learning II",
                 "value": true
+            },
+            "heroes5Necromancy": {
+                "incompatibleWith": "ACM, banCloakOfTheUndeadKing, banNecromancyFromMechsAndElems, necromancy (option 751), hotaNecromancy",
+                "value": false
             },
 
 
@@ -121,7 +134,7 @@
                 "value": true
             },
             "hotaNecromancy": {
-                "incompatibleWith": "necromancy (option 751)",
+                "incompatibleWith": "necromancy (option 751), heroes5Necromancy",
                 "value": true
             },
             "hotaPathfinding": {

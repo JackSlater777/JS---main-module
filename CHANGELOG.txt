@@ -1,3 +1,8 @@
+Version 1.17 (14.05.2026)
+- added heroes5Necromancy option
+- added aiModule option
+
+
 Version 1.16 (06.10.2025)
 - added missed description to hotaCreatures option
 - moved griphics for already existing objects to "JS - new objects"
