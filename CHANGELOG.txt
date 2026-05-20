@@ -1,3 +1,17 @@
+Version 1.18 (20.05.2026)
+- added artifactTweaks. There will be mini-options for it in the future, everyone of them could be enabled or disabled:
+	- added goldenGooseTweak: it reduces the value and class of the components of Golden Goose. Values are customizable here: \Mods\JS - main module\Lang\jsmainmodule.json, look for "jsMod.artifact.%d" key, where %d - artifact id
+	- added statueOfLegionTweak: the components of Statue of Legion provide a bonus to all player towns even if worn by a non-garrison hero
+- changed hotaNecromancy according to the latest HotA version: all sources of necromantic power have been halved, with the exception of artifacts
+- added JS_BugFixes.era, it fixes a lot of bugs and problems in artifact merchant dialog and altar of sacrifice
+- added empty artefact merchant fix.dll. it caused troubles with S_BugFixes.era
+- renamed Hota_TargetedShot.era into JS_AimedAreaShot.era, added customization via json-file
+- added a compatibility of JS_AimedAreaShot.era with amethyst, ir still needs a proper testing though
+- added a compatibility of bonusBallistics option with JS_AimedAreaShot.era
+- heroes5Necromancy: fixed a bug when merging stacks in garrison cause a loss of dark energy
+- hotaCreatures: adjusted fightValue, aiValue, advMapLow, advMapHigh creature parameters to HotA values
+
+
 Version 1.17 (14.05.2026)
 - added heroes5Necromancy option
 - added aiModule option

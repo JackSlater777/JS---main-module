@@ -12,7 +12,13 @@ ZVSE2
 !#VA(setHook:x);
 
 ; Bonus Ballistics
-!!SN&i^js_ballistics_bonus^:E(setHook)/1/4454185/(js_OnBeforeMagogShoot); 0043F729
+!!if&i^js_aimedareashot^=0/i^js_ballistics_bonus^;
+  !!SN:E(setHook)/1/4454185/(js_OnBeforeMagogShoot); 0043F729
+; Integration with JS_AimedAreaShot.era
+!!el&i^js_aimedareashot^/i^js_ballistics_bonus^;
+  !!VRi^js_aimedShotType_%(MON_NOT_USED_2)^:S1; Fireball attack
+!!en;
+
 
 ; Sounds For Abilities
 !!SN:E(setHook)/1/7456434/(js_Block_BeforeAnimation); 71C6B2 Dracolich

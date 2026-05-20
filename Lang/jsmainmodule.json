@@ -1,15 +1,5 @@
 {
     "jsMod": {
-        "shotAtArea": {
-            "hintFormat": {
-                "singular": "%s can shoot at area (press G to pick a target)",
-                "plural": "%s can shoot at area (press G to pick a target)",
-                "desc": "Shoot here",
-                "descOnTarget": "Shoot at a target %s (shots: %d, damage: %s)",
-                "offDescOnTarget": "Shoot at a target %s",
-                "cannotShootHint": "Select the target of the shot"
-            }
-        },
         "artifact": {
             "54": {
                 "name": "Amulet of the Undertaker",
@@ -42,6 +32,41 @@
             "98": {
                 "name": "Boots of Speed",
                 "description": "{Boots of Speed}\n\nWorn on the feet, these boots increase your hero's movement points over land by 400."
+            },
+            "115": {
+                "name": "Endless Sack of Gold",
+                "cost": 6000,
+                "type": 8
+            },
+            "116": {
+                "name": "Endless Bag of Gold",
+                "cost": 4500,
+                "type": 4
+            },
+            "117": {
+                "name": "Endless Purse of Gold",
+                "cost": 3000,
+                "type": 4
+            },
+            "118": {
+                "name": "Legs of Legion",
+                "description": "{Legs of Legion}\n\nThis item increases the growth of 2nd level units in all player's towns by 5 per week."
+            },
+            "119": {
+                "name": "Loins of Legion",
+                "description": "{Loins of Legion}\n\nThis item increases the growth of 3rd level units in all player's towns by 4 per week."
+            },
+            "120": {
+                "name": "Torso of Legion",
+                "description": "{Torso of Legion}\n\nThis item increases the growth of 4th level units in all player's towns by 3 per week."
+            },
+            "121": {
+                "name": "Arms of Legion",
+                "description": "{Arms of Legion}\n\nThis item increases the growth of 5th level units in all player's towns by 2 per week."
+            },
+            "122": {
+                "name": "Head of Legion",
+                "description": "{Head of Legion}\n\nThis item increases the growth of 6th level units in all player's towns by 1 per week."
             },
             "130": {
                 "name": "Cloak of the Undead King",

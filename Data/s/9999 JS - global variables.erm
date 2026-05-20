@@ -7,3 +7,7 @@ ZVSE2
 
 !?FU(OnAfterBattle);
 !!VRi^tum_js_InCombat^:S(FALSE);
+
+
+
+!#SN:L^JS_AimedAreaShot.era^/?i^js_aimedareashot^;

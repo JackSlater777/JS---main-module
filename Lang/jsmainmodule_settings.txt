@@ -1,3 +1,13 @@
+artifactTweaks
+- a bulk of separate mini-options:
+	
+	goldenGooseTweak
+	- it reduces the value and class of the components of Golden Goose. Values are customizable here: \Mods\JS - main module\Lang\jsmainmodule.json, look for "jsMod.artifact.%d" key, where %d - artifact id
+	
+	statueOfLegionTweak
+	- the components of Statue of Legion provide a bonus to all player towns even if worn by a non-garrison hero
+
+
 accumulateCreaturesInDwellings
 - If an external dwelling is captured, it accumulates creatures from week to week
 
@@ -115,6 +125,7 @@ hotaCreatures
 - The basic Growth of Firebirds and Phoenixes is reduced from 2 to 1
 - Replace the costs of next creatures with HotA costs: Psycho Elemental, Magic Elemental, Firebird, Phoenix
 - Removed fire immunity from Firebirds, added 50% fire resistance
+- Adjusted next creature parameters to HotA values: fightValue, aiValue, advMapLow, advMapHigh
 
 hotaEstates
 - The value of the Estates skill has been increased from 125/250/500 to 250/500/1000
@@ -142,7 +153,7 @@ hotaMysticism
 - Mysticism now allows the hero to restore 10/20/30% of his maximum spell points per day, but no less than 5/10/15 points
 
 hotaNecromancy
-- All sources of necromancy power are halfed
+- All sources of necromantic power have been halved, with the exception of artifacts
 
 hotaPathfinding
 - Pathfinding now reduces the standard cost of an off-road step by 25/50/75 down to a minimum of 95/90/85

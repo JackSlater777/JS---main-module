@@ -1,0 +1,28 @@
+{
+    "jsMod": {
+        "shotAtArea": {
+            "hintFormat": {
+                "singular": "%s can shoot at area (press G to pick a target)",
+                "plural": "%s can shoot at area (press G to pick a target)",
+                "desc": "Shoot here",
+                "descOnTarget": "Shoot at a target %s (shots: %d, damage: %s)",
+                "offDescOnTarget": "Shoot at a target %s",
+                "cannotShootHint": "Select the target of the shot"
+            },
+            "creatures": {
+                "45": {
+                    "type": 1
+                },
+                "64": {
+                    "type": 2
+                },
+                "65": {
+                    "type": 2
+                },
+                "196": {
+                    "type": 2
+                }
+            }
+        }
+    }
+}

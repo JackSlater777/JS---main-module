@@ -1,6 +1,21 @@
 {
     "jsMod": {
         "settings": {
+            "artifactTweaks": {
+                "value": false,
+                
+		"statueOfLegionTweak": {
+                    "value": true
+                },
+		"goldenGooseTweak": {
+                    "value": true
+                }
+	    },
+
+
+
+
+
             "accumulateCreaturesInDwellings": {
                 "incompatibleWith": "option 7",
                 "value": true
@@ -52,7 +67,7 @@
 
             "bonusBallistics": {
                 "incompatibleWith": "enhanced war machines I, II and III",
-                "value": true
+                "value": false
             },
             "bonusEagleEye": {
                 "incompatibleWith": "critical sorcery",

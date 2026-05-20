@@ -55,6 +55,11 @@ ZVSE2
 
 ; Set up flags for Catapult in non-siege
 !!MA:X(MON_NOT_USED_2)/132197 F(MON_NOT_USED_2)/650 ; [set NU2 flags {catapult flags (132197) + shooter (4)}    NU2 Fight Value 650  ]
+
+!!MA:X(MON_NOT_USED_2)/?f;
+!!VR(aoeShooter:y):Sf &(MON_FLAG_SPLASH_SHOOTER);
+!!MA&(aoeShooter)=0:X(MON_NOT_USED_2)/d|(MON_FLAG_SPLASH_SHOOTER);
+
 !!MA:A(MON_NOT_USED_2)/10 D(MON_NOT_USED_2)/10 P(MON_NOT_USED_2)/250 N(MON_NOT_USED_2)/24; [NU2 Attack 10 NU2 Defense 10 NU2 HP 250  NU2 Shots 24]
 
 ; creature descriptions
@@ -77,6 +82,7 @@ ZVSE2
 
 !?FU(js_OnBeforeMagogShoot);
 !!UN:Cx1/(STRUCT_HOOK_CONTEXT_ESI)/4/?(esi:y) C(esi)/52/4/?(monNum:y); 0x34
+
 !!if&(monNum)=(MON_NOT_USED_2);
   !!UN:Cx1/(STRUCT_HOOK_CONTEXT_EAX)/4/(monNum);
   !!SN:X?y99/0;
@@ -148,13 +154,7 @@ ZVSE2
 ; Change catapult ID to 124 - Must be after Tactics Phase due to HD mod compatibility
 !?FU(OnAfterTacticsPhase)&i^js_ballistics_bonus^;
 !!re i/(BATTLE_LEFT)/(BATTLE_RIGHT);
-  !!BMi^wog_55_catapult_%i^&i^wog_55_catapult_%i^>(NO_STACK):T(MON_NOT_USED_2);
-!!en;
-
-!!if&i^wog_isSiege^<>(TRUE)/i^wog_isCBBattle^<>(TRUE);
-  !!MA:X(MON_CATAPULT)/?f;
-  !!VR(aoeShooter:y):Sf &(MON_FLAG_SPLASH_SHOOTER);
-  !!MA&(aoeShooter)=0:X(MON_CATAPULT)/d|(MON_FLAG_SPLASH_SHOOTER);
+  !!BMi^wog_55_catapult_%i^&i^wog_55_catapult_%i^>(NO_STACK):T(MON_NOT_USED_2) Fd|(MON_FLAG_SPLASH_SHOOTER);
 !!en;
 
 
@@ -162,10 +162,6 @@ ZVSE2
 ; Restore the memory value for Arrow Tower Shoot Adjacent
 !!UN:C4466213/(UNC_INT)/(MON_ARROW_TOWERS);
 !!UN:C4479001/(UNC_INT)/(MON_ARROW_TOWERS);
-
-!!MA:X(MON_CATAPULT)/?f;
-!!VR(aoeShooter:y):Sf &(MON_FLAG_SPLASH_SHOOTER);
-!!MA&(aoeShooter):X(MON_CATAPULT)/d~(MON_FLAG_SPLASH_SHOOTER);
 
 
 !?FU(OnGameLeave)&i^js_ballistics_bonus^;
@@ -209,38 +205,3 @@ ZVSE2
     !!en;
   ;!en;
 !!en;
-
-
-// Катапульта тут не детектится! - и правильно, потому что в функции shoot 3 кейса (магог, лич и все остальные)
-// Хук стоит в кейсе "все остальные"
-
-*?FU(js_BattleStack_ShotAbilities)&i^js_ballistics_bonus^/i^wog_isSiege^<>(TRUE);
-*!UN:Cx1/(STRUCT_HOOK_CONTEXT_ESI)/4/?(shooter:y) C(shooter)/52/4/?(shooterNum:y); 34;
-*!IF:L^shooterNum= %(shooterNum)^;
-*!FU&(shooterNum)<>(MON_NOT_USED_2):E;
-
-*!UN:Cx1/(STRUCT_HOOK_CONTEXT_EDI)/4/?(target:y) C(target)/80/4/?(monQty:y); 50
-*!IF:L^monQty= %(monQty)^;
-*!FU&(monQty)<=0:E;
-
-*!UN:C(target)/120/4/?(targetLvl:y); 0x78
-
-*!VR(random:y):R0/0/99;
-*!VR(chance:y):S6 -(targetLvl);
-*!HEi^battle_hero_%i(battle_acting_side)^:S(SKILL_BALLISTICS)/?(skillLvl:y);
-*!VR(chance):+(skillLvl);
-*!VR(chance):*10 F0/100;
-
-*!if&(random)<=(chance);
-  *!FU(js_GetActualStackSideByStackPtr):P(target)/?(side:y);
-  *!UN:C(target)/248/4/?(stackNum:y); 0xF8
-  *!VR(stackNum)&(side): +(BATTLE_STACKS_PER_SIDE);
-
-  *!BM(stackNum):Nd-1;
-
-  *!if&i^battle_isVisible^;
-    *!VR(logMsg:z):Sz155007;
-    *!MM:S(logMsg);
-    *!BM(stackNum):V82;
-  *!en;
-*!en;

@@ -1,0 +1,16 @@
+{
+    "jsMod": {
+        "necroDlgInfo": {
+            "text": "Choose creatures to raise",
+            "msgNotEnoughPts": "You don't have enough necro points!",
+            "msgCreatureNotDefined": "Missing configuration for the creature being raised!",
+            "msgRectrictMovingStacksUp": "In the necromancer dialog box, you can't move creatures from heros army to garrison!",
+            "msgRectrictMergingStacksUp": "In the necromancer dialog box, you can't merge creatures from heros army to garrison!",
+            "msgRectrictExchangingStacks": "In the necromancer dialog box, you can't exchange creatures!",
+            "msgRectrictSplitingStacks": "In the necromancer dialog box, you can only split creatures within the same army (hero or garrison)!",
+            "hintAvailablePts": "Available dark energy: {~LimeGreen}%d{~}",
+            "hintRaiseCreatures": "Raise creatures for {~Yellow}%d{~} points. Available points: {~LimeGreen}%d{~}",
+            "hintRaiseCreaturesNoPts": "Raise creatures for {~Yellow}%d{~} points. Available points: {~r}%d{~}"
+        }
+    }
+}
