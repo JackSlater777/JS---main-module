@@ -1,9 +1,5 @@
 artifactTweaks
-- a bulk of separate mini-options:
-	
-	goldenGooseTweak
-	- it reduces the value and class of the components of Golden Goose. Values are customizable here: \Mods\JS - main module\Lang\jsmainmodule.json, look for "jsMod.artifact.%d" key, where %d - artifact id
-	
+
 	statueOfLegionTweak
 	- the components of Statue of Legion provide a bonus to all player towns even if worn by a non-garrison hero
 
@@ -106,7 +102,6 @@ heroes5Necromancy
 - Implemented a system of necromancy from HoMM5. You can get an info about it here: http://www.heroesofmightandmagic.com/heroes5/ability_necromancy.shtml
 - Key differences from HoMM5 necromancy system:
 	- The raising map can be customized - see here \JS - main module\Lang\jsmainmodule_h5necro_mapping.json
-	- Necromancy percentages are changed from 20/30/40% to 10/20/30%
 	- Amulet of the Undertaker reduces raising costs by 2.5% (instead of 10%)
 	- Vampire's Cowl reduces raising costs by 5%
 	- Dead Man's Boots reduce raising costs by 7.5%

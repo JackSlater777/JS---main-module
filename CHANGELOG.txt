@@ -1,3 +1,7 @@
+Version 1.19 (09.07.2026)
+- artifactTweaks - goldenGooseTweak is deleted, since there is a possibility to edit artifacts settings via json using ERA_JsonOverrides.era plugin
+
+
 Version 1.18 (20.05.2026)
 - added artifactTweaks. There will be mini-options for it in the future, everyone of them could be enabled or disabled:
 	- added goldenGooseTweak: it reduces the value and class of the components of Golden Goose. Values are customizable here: \Mods\JS - main module\Lang\jsmainmodule.json, look for "jsMod.artifact.%d" key, where %d - artifact id

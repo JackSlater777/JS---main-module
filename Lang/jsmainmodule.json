@@ -33,21 +33,6 @@
                 "name": "Boots of Speed",
                 "description": "{Boots of Speed}\n\nWorn on the feet, these boots increase your hero's movement points over land by 400."
             },
-            "115": {
-                "name": "Endless Sack of Gold",
-                "cost": 6000,
-                "type": 8
-            },
-            "116": {
-                "name": "Endless Bag of Gold",
-                "cost": 4500,
-                "type": 4
-            },
-            "117": {
-                "name": "Endless Purse of Gold",
-                "cost": 3000,
-                "type": 4
-            },
             "118": {
                 "name": "Legs of Legion",
                 "description": "{Legs of Legion}\n\nThis item increases the growth of 2nd level units in all player's towns by 5 per week."
@@ -460,9 +445,9 @@
                 "12": {
                     "name": "Necromancy",
                     "description": {
-                        "1": "{Basic Necromancy}\n\nBasic Necromancy allows a Necromancer to raise 10% of fallen enemy living creatures as own soldiers (a limited number of creatures can be raised per week). Increases the number of dark energy points.",
-                        "2": "{Advanced Necromancy}\n\nAdvanced Necromancy allows a Necromancer to raise 20% of fallen enemy living creatures as own soldiers (a limited number of creatures can be raised per week). Increases the number of dark energy points.",
-                        "3": "{Expert Necromancy}\n\nExpert Necromancy allows a Necromancer to raise 30% of fallen enemy living creatures as own soldiers (a limited number of creatures can be raised per week). Increases the number of dark energy points."
+                        "1": "{Basic Necromancy}\n\nBasic Necromancy allows a Necromancer to raise 20% of fallen enemy living creatures as own soldiers (a limited number of creatures can be raised per week). Increases the number of dark energy points.",
+                        "2": "{Advanced Necromancy}\n\nAdvanced Necromancy allows a Necromancer to raise 30% of fallen enemy living creatures as own soldiers (a limited number of creatures can be raised per week). Increases the number of dark energy points.",
+                        "3": "{Expert Necromancy}\n\nExpert Necromancy allows a Necromancer to raise 40% of fallen enemy living creatures as own soldiers (a limited number of creatures can be raised per week). Increases the number of dark energy points."
                     }
                 },
                 "21": {
