@@ -10,10 +10,10 @@ ZVSE2
 ; Slayer specialization adds +20/16/12/8 to the spell effect for Tier 1-2/3-4/5-6/7 creatures 
 ; Disrupting Ray Specialization  increases the spell's effect by 10
 ; Luna: specialization bonus reduced from 100% to 25%
+; Adrienne's Fire Magic specialization increases Fire spell damage by 50%
 ; The option is incompatible with WoG-options: enhanced specialties
 
 // Forgetfulness specialization now increases the reduction of attacking creatures' number in target stacks by 10% for n hero levels, where n is the target's level
-// TODO: Adrienne's Fire Magic specialization increases Fire spell damage by 50%
 
 
 // Incompatible options
@@ -42,7 +42,10 @@ ZVSE2
 !!re i/0/(HERO_LAST_WOG);
   !!HEi:X?(specType:y)/?(specSubtype:y)/d/d/d/d/d;
 
-  !!if&(specType)=3;
+  !!if&i=145; // Adrienne
+    !!SN:H^spec^/i/2/^%T(jsMod.hero.145.specDesc)^;
+
+  !!el&(specType)=3;
     !!if|(specSubtype)=(SPELL_METEOR_SHOWER)/(specSubtype)=(SPELL_CHAIN_LIGHTNING)/(specSubtype)=(SPELL_RESURRECTION)/(specSubtype)=(SPELL_ANIMATE_DEAD);
       !!SN:H^spec^/i/2/?(specDesc:z);
       !!VR(specDesc): +^%T(jsMod.spell.23193839.desc.spec)^;

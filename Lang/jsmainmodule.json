@@ -125,6 +125,11 @@
                 "bio": "Kinkeria was one of the most respected witches of her tribe. She always sought knowledge and easily grasped the essence of any phenomenon. She excelled in things that other sages struggled with for years. It’s no surprise that very soon Kinkeria was in service to the king of Tatalia."
             }
         },
+        "hero": {
+            "145": {
+                "specDesc": "{Fire Magic}\n\nIncreases the damage of Fire spells by 50%."
+            }
+        },
         "heroSpecDescOverhaul": {
             "monster": {
                 "desc": "{Current bonus: @monName@}",

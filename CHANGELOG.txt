@@ -1,3 +1,8 @@
+Version 1.20 (22.07.2026)
+- hotaSpecialtiesSpells - added Adrienne +50% fire damage
+- hotaSpecialtiesSpells - fixed missing standart spell specialization effects, such as luck specialist
+
+
 Version 1.19 (09.07.2026)
 - artifactTweaks - goldenGooseTweak is deleted, since there is a possibility to edit artifacts settings via json using ERA_JsonOverrides.era plugin
 
