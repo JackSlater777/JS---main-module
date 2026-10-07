@@ -1,3 +1,7 @@
+Version 1.21 (07.10.2026)
+- JS_AimedAreaShot - added physical area shot (shot type is 3) - see /lang/jsmainmodule_aimedareashot.json for the details
+
+
 Version 1.20 (22.07.2026)
 - hotaSpecialtiesSpells - added Adrienne +50% fire damage
 - hotaSpecialtiesSpells - fixed missing standart spell specialization effects, such as luck specialist
